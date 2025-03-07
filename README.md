@@ -1,0 +1,1 @@
+Creating an interactive dashboard for managing employees in a company using DOM manipulation to dynamically add, update, and remove employee cards

@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 28px;
+    padding: 28px;
+}
+
+.employee-card{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightpink;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.product-item{
+    cursor: pointer;
+    color: aqua;
+}
+
+.customer-card{
+    padding: 10px;
+    margin: 5px;
+    background-color: lightpink;
+    cursor: pointer;
+}

@@ -1,6 +1,6 @@
 //Task 2 Adding Employee Cards Dynamically
 
-function buildEmployeeCard(name,position){
+function addEmployeeCard(name,position){
     const employeeContainer=document.getElementById("employeeContainer")
     const card=document.createElement('div');
     card.setAttribute("class","employee-card");
@@ -27,7 +27,7 @@ function buildEmployeeCard(name,position){
 
 };
 
-buildEmployeeCard("Johnny Walker","Technician");
-buildEmployeeCard("Jim Beam","Advisor");
-buildEmployeeCard("Jack Daniels","Researcher");
-buildEmployeeCard("Elijah Craig","Analyst");
+addEmployeeCard("Johnny Walker","Technician");
+addEmployeeCard("Jim Beam","Advisor");
+addEmployeeCard("Jack Daniels","Researcher");
+addEmployeeCard("Elijah Craig","Analyst");

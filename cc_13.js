@@ -40,10 +40,14 @@ addEmployeeCard("Elijah Craig","Analyst");
 //Task 3 Converting NodeLists to Arrays for Bulk Updates
 
 function highlightAllCards(){
-    const employeeCards=document.querySelectorAll('employee.card');
-    const cardArray=Array.from(employeeCards);
+    const employeeCards=document.querySelectorAll('employee-card');
+    const employeeCardsArray=Array.from(employeeCards);
 
-    cardArray.forEach(card=>{
-        
+    employeeCardsArray.forEach(card=>{
+        const p=card.querySelector("p");
+        if (p){
+            p.style.backgroundColor='aqua'
+        };
     });
 };
+

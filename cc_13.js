@@ -44,10 +44,8 @@ function highlightAllCards(){
     const employeeCardsArray=Array.from(employeeCards);
 
     employeeCardsArray.forEach(card=>{
-        const p=card.querySelector("p");
-        if (p){
-            p.style.backgroundColor='aqua'
-        };
-    });
-};
+        const card=card.querySelectorAll(employeeCardsArray);
+        employeeCards.style.backgroundColor= 'aqua'
+    })
 
+}

@@ -4,6 +4,7 @@ function buildEmployeeCard(name,position){
     const employeeContainer=document.getElementById("employeeContainer")
     const card=document.createElement('div');
     card.setAttribute("class","employee-card");
+    card.classList.add('employee-card');
 
     const employeeName=document.createElement('h2');
     employeeName.textContent=name;

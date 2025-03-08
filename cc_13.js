@@ -44,6 +44,6 @@ function highlightAllCards(){
     const cardArray=Array.from(employeeCards);
 
     cardArray.forEach(card=>{
-        card.style.backgroundColor= 'aqua';
+        
     });
 };

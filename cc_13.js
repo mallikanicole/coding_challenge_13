@@ -44,8 +44,8 @@ function highlightAllCards(){
     const employeeCardsArray=Array.from(employeeCards);
 
     employeeCardsArray.forEach(card=>{
-        const card=card.querySelectorAll(employeeCardsArray);
-        employeeCards.style.backgroundColor= 'aqua'
+        const highlightedCard=card.querySelectorAll(employeeCardsArray);
+        highlightedCard.style.backgroundColor= 'aqua'
     })
 
 }

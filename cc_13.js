@@ -37,3 +37,13 @@ addEmployeeCard("Jack Daniels","Researcher");
 addEmployeeCard("Elijah Craig","Analyst");
 
 
+//Task 3 Converting NodeLists to Arrays for Bulk Updates
+
+function highlightAllCards(){
+    const employeeCards=document.querySelectorAll('employee.card');
+    const cardArray=Array.from(employeeCards);
+
+    cardArray.forEach(card=>{
+        card.style.backgroundColor= 'aqua';
+    });
+};

@@ -45,6 +45,36 @@ document.querySelectorAll(".employee-card").forEach(card=>{
     });
 })
 
+
+//Task 5 Inline Editing of Employee Details
+
+editButton.addEventListener("click",function(){
+    const inputName=document.createElement("input");
+    inputName.value=heading.textContent;
+    const inputPosition=document.createElement("input");
+    inputPosition.value=paragraph.textContent;
+    const saveButton=document.createElement("button");
+    saveButton.textContent='Save';
+    card.appendChild(inputPosition);
+
+    card.appendChild(inputName);
+    card.appendChild(inputPosition);
+    card.appendChild(saveButton);
+    card.appendChild(removeButton);
+
+    saveButton.addEventListener("click",function(){
+        heading.textContent=inputName.value;
+        paragraph.textContent=inputPosition.value;
+
+        card.inner.HTML="";
+        card.appendChild(heading)
+        card.appendChild(paragraph)
+        card.appendChild(editButton)
+        card.appendChild(removeButton)
+    })
+})
+
+
 //Task 3 Converting NodeLists to Arrays for Bulk Updates
 
 function addBorderCards(){

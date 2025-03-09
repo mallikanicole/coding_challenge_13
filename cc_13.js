@@ -86,11 +86,7 @@ function addBorderCards(){
     const employeeCardsArray=Array.from(employeeCards);
 
     employeeCardsArray.forEach(card=>{
-       const p=card.querySelector("p");
-       if (p){
-        p.style.backgroundColor=backgroundColor
-       };
-
+     card.style.border='1.5px aqua'
     });
 
 };

@@ -46,7 +46,7 @@ function addBorderCards(){
     employeeCardsArray.forEach(card=>{
        const p=card.querySelector("p");
        if (p){
-        p.style.borderColor='aqua'
+        p.style.backgroundColor='aqua'
        };
 
     });

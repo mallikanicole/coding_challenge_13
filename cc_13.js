@@ -69,7 +69,6 @@ editButton.addEventListener("click",function(){
         card.inner.HTML="";
         card.appendChild(heading)
         card.appendChild(paragraph)
-        card.appendChild(editButton)
         card.appendChild(removeButton)
     })
 })

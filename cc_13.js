@@ -36,6 +36,14 @@ addEmployeeCard("Jim Beam","Advisor");
 addEmployeeCard("Jack Daniels","Researcher");
 addEmployeeCard("Elijah Craig","Analyst");
 
+//Task 4 Implementing Removal of Employee Cards with Event Bubbling
+
+document.querySelectorAll(".employee-card").forEach(card=>{
+    card.addEventListener("click",(event)=>{
+        console.log("Employee Card Clicked");
+        event.stopPropagation();//prevents bubbling to parent
+    });
+})
 
 //Task 3 Converting NodeLists to Arrays for Bulk Updates
 
@@ -46,7 +54,7 @@ function addBorderCards(){
     employeeCardsArray.forEach(card=>{
        const p=card.querySelector("p");
        if (p){
-        p.style.backgroundColor='aqua'
+        p.style.backgroundColor=backgroundColor
        };
 
     });

@@ -48,6 +48,9 @@ document.querySelectorAll(".employee-card").forEach(card=>{
 
 //Task 5 Inline Editing of Employee Details
 
+const editButton=createElement("button");
+editButton.textContent="Edit";
+
 editButton.addEventListener("click",function(){
     const inputName=document.createElement("input");
     inputName.value=heading.textContent;

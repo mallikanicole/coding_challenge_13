@@ -70,8 +70,10 @@ editButton.addEventListener("click",function(){
         card.appendChild(heading)
         card.appendChild(paragraph)
         card.appendChild(removeButton)
+        card.appendChild(editButton)
     })
 })
+editButton();
 
 
 //Task 3 Converting NodeLists to Arrays for Bulk Updates

@@ -10,10 +10,8 @@ body{
     background-color: lightpink;
     border-radius: 5px;
     display: inline-block;
+    border-color:aqua
 }
 
 
-.border{
-    border-color: aqua;
-    border-radius: 1.5px;
-}
+

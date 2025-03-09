@@ -44,7 +44,10 @@ function addBorderCards(){
     const employeeCardsArray=Array.from(employeeCards);
 
     employeeCardsArray.forEach(card=>{
-        card.style.border='aqua';
+       const p=card.querySelector("p");
+       if (p){
+        p.style.borderColor='aqua'
+       };
 
     });
 

@@ -12,14 +12,7 @@ body{
     display: inline-block;
 }
 
-.product-item{
-    cursor: pointer;
-    color: aqua;
-}
 
-.customer-card{
-    padding: 10px;
-    margin: 5px;
-    background-color: lightpink;
-    cursor: pointer;
+.border{
+    border-color: aqua;
 }

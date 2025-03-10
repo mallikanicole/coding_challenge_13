@@ -87,7 +87,7 @@ function addBorderCards(){
     const employeeCardsArray=Array.from(employeeCards);
 
     employeeCardsArray.forEach(card=>{
-     card.style.border='1.5px aqua'
+     card.style.border='5px aqua'
     });
 
 };
